@@ -22,7 +22,7 @@ document.documentElement.innerHTML = `<html><head><link rel="icon" href="data:im
 <body ` + isPageDev() + `>
 <div class="nav">
 <div class="nav-left">
-<div class="nav-title">Ingot</div>
+<div class="nav-title">Extension Disabler</div>
 <div class="nav-right">
 <div class="nav-dev">Developer mode</div>
 <div ` + isButtonDev() + ` class="item-toggle item-toggle-dev" id="toggle" onclick="toggle(this);devMode()" onmousedown="togglePress(this, 'down')" onmouseup="togglePress(this, 'up')">
@@ -39,8 +39,8 @@ document.documentElement.innerHTML = `<html><head><link rel="icon" href="data:im
 
 <div class="items-main">
 <div class="items" id="items">
-<div class="patched">Error: This may have been patched</div>
-<div class="wrongpage">You are not on the correct page.<br>To use Ingot click the button below to redirect and run the bookmarklet again.<div class="item-left-buttons" style="justify-content: center; margin: 20px;">
+<div class="patched">Oops!: This may have been patched</div>
+<div class="wrongpage">Hold on! You are not on the correct page!<br>To use Ingot, please, click the button below to redirect. Then run the bookmarklet again.<div class="item-left-buttons" style="justify-content: center; margin: 20px;">
 <div class="item-left-button" onclick="window.location='https://chrome.google.com/webstorex'">Redirect</div>
 </div></div>
 </div>
